@@ -4,8 +4,6 @@ bbblink an open-source library for making your DOM elements appear and disappear
 
 Blink provides the polyfill you need to reverse the [disastrous decision made in 2014](https://www.fastcompany.com/3015408/saying-goodbye-to-the-html-tag) to remove the blink HTML tag.
 
-Download our node [NPM package](https://www.npmjs.com/package/bbblink).
-
 ## Documentation
 
 ### Installation
@@ -61,7 +59,7 @@ const alltheBlinks = require('bbblink')
 
 ### React Example
 
-MakeBlink only works with React event handlers.
+Use bbblink with React event handlers.
 
 ```
 import React, { useEffect } from "react";
@@ -84,6 +82,10 @@ export default function App() {
 }
 
 ```
+
+Try it on Code Sandbox!
+
+[![Edit floral-rgb-k7mnj](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/floral-rgb-k7mnj?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Created by
 
