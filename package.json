@@ -1,0 +1,15 @@
+{
+  "name": "bbblink",
+  "version": "1.0.0",
+  "description": "bring back blink",
+  "main": "blink.js",
+  "scripts": {
+    "start": "node blink.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blink"
+  ],
+  "author": "blinkers",
+  "license": "ISC"
+}
