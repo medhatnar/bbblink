@@ -32,30 +32,36 @@ const alltheBlinks = require('bbblink')
 
 ### Functions
 
-1. `makeBlink(DOM Element, interval = 500)`
+1.  `makeBlink(DOM Element, interval = 500)`
 
-   Makes an element on your page blink at a given interval in ms.
+    Makes an element on your page blink at a given interval in ms.
 
-   ```
-   alltheBlinks(500)
-   ```
+    ```
+    el = getElementbyId("not-blinking")
+    makeBlink(el, 300)
+    ```
 
-2) `allTheBlinks(interval = 500)`
+    ![gif of make blink](https://im5.ezgif.com/tmp/ezgif-5-8d0affcc52f5.gif)
 
-   Makes everything on your page blink at the given interval
+2.  `allTheBlinks(interval = 500)`
 
-   ```
-   el = getElementbyId("not-blinking")
-   makeBlink(el, 300)
-   ```
+    Makes everything on your page blink at a given interval in ms.
 
-3) **OBSOLETE** `stopBlink()`
+    ```
+    alltheBlinks(500)
+    ```
 
-   Not recommended. Stops all current blinking processes.
+    ![gif of all the blinks](https://im5.ezgif.com/tmp/ezgif-5-0b8b10be0785.gif)
 
-   ```
-   stopBlink()
-   ```
+3.  **OBSOLETE** `stopBlink()`
+
+    Not recommended. Stops all current blinking processes.
+
+    ```
+    stopBlink()
+    ```
+
+    ![gif of stop blink](https://im5.ezgif.com/tmp/ezgif-5-680c877c21d5.gif)
 
 ### React Example
 
@@ -80,7 +86,6 @@ export default function App() {
     </div>
   );
 }
-
 ```
 
 Try it on Code Sandbox!
@@ -90,9 +95,9 @@ Try it on Code Sandbox!
 ## Created by
 
 <table>
-  <tr>
-     <td align="center"><a href="https://github.com/narmader"><img src="https://avatars0.githubusercontent.com/u/16326269?s=400&v=4" width="200px;" alt="Picture of Andrew Chien"/><br /><b>Nar Shah</b></a></td>
-    <td align="center"><a href="https://twitter.com/AlliColyer"><img src="https://avatars1.githubusercontent.com/u/11083917?s=460&v=4" width="200px;" alt="Picture of Allison Colyer"/><br /><b>Alli Colyer</b></a></td>
-   <td align="center"><a href="https://github.com/michaelwlu"><img src="https://avatars1.githubusercontent.com/u/9114194?s=460&v=4" width="200px;" alt="Picture of Michael Lu"/><br /><b>Michael Lu</b></a></td>
-  </tr>
+<tr>
+<td align="center"><a href="https://github.com/narmader"><img src="https://avatars0.githubusercontent.com/u/16326269?s=400&v=4" width="200px;" alt="Picture of Andrew Chien"/><br /><b>Nar Shah</b></a></td>
+<td align="center"><a href="https://twitter.com/AlliColyer"><img src="https://avatars1.githubusercontent.com/u/11083917?s=460&v=4" width="200px;" alt="Picture of Allison Colyer"/><br /><b>Alli Colyer</b></a></td>
+<td align="center"><a href="https://github.com/michaelwlu"><img src="https://avatars1.githubusercontent.com/u/9114194?s=460&v=4" width="200px;" alt="Picture of Michael Lu"/><br /><b>Michael Lu</b></a></td>
+</tr>
 </table>
