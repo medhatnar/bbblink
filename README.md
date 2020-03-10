@@ -41,7 +41,7 @@ const alltheBlinks = require('bbblink')
     makeBlink(el, 300)
     ```
 
-    ![gif of make blink](https://im5.ezgif.com/tmp/ezgif-5-8d0affcc52f5.gif)
+    ![gif of make blink](./assets/makeBlink.gif)
 
 2.  `allTheBlinks(interval = 500)`
 
@@ -51,7 +51,7 @@ const alltheBlinks = require('bbblink')
     alltheBlinks(500)
     ```
 
-    ![gif of all the blinks](https://im5.ezgif.com/tmp/ezgif-5-0b8b10be0785.gif)
+    ![gif of all the blinks](./assets/allTheBlinks.gif)
 
 3.  **OBSOLETE** `stopBlink()`
 
@@ -61,7 +61,7 @@ const alltheBlinks = require('bbblink')
     stopBlink()
     ```
 
-    ![gif of stop blink](https://im5.ezgif.com/tmp/ezgif-5-680c877c21d5.gif)
+    ![gif of stop blink](./assets/stopBlink.gif)
 
 ### React Example
 
